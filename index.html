@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#102c42">
 <title>Sanitetski prijevoz Rijeka</title>
 <meta name="description" content="Privatni sanitetski prijevoz Rijeka – prijevoz nepokretnih, teško pokretnih i ležećih osoba, na nosilima ili sjedeći uz pratnju. Opatija, Crikvenica, Krk, Cres, Lošinj, cijela Hrvatska i Europa. 0–24, bez uputnice, fiksna cijena.">
 <meta name="keywords" content="sanitetski prijevoz Rijeka, privatni sanitetski prijevoz, sanitetski prevoz Rijeka, prijevoz nepokretnih osoba Rijeka, prijevoz ležećih pacijenata, prijevoz teško pokretnih osoba, ambulantni prijevoz Rijeka, prijevoz na dijalizu, prijevoz iz bolnice kući, sanitetski prijevoz Opatija, Crikvenica, Krk">
@@ -73,6 +79,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .lang{font-family:var(--display);font-weight:600;font-size:13px;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:9px 8px;cursor:pointer;min-height:40px}
 .lang option{color:#14293b;background:#fff}
 header.site .wrap{gap:8px}
+@media (max-width:359px){.logo{gap:8px;min-width:0}.logo-mark{width:34px;height:34px}.logo-mark svg{width:19px;height:19px}.logo-text b{font-size:15px;letter-spacing:.03em}.logo-text small{font-size:8px;letter-spacing:.1em}.lang{padding:7px 4px}.burger{padding:8px 4px}}
 .burger span{display:block;width:26px;height:3px;background:var(--lime);margin:5px 0;border-radius:2px}
 nav.main{position:absolute;inset:100% 0 auto 0;background:var(--night);border-top:1px solid #1b4260;max-height:70vh;overflow:auto}
 nav.main:not(.open){display:none}
@@ -175,16 +182,16 @@ nav.main a{display:block;padding:14px 0;border-bottom:1px solid #1b4260;text-dec
 /* gallery */
 .gal-bg{background:var(--panel)}
 .gal-bg .sec-head h2{color:#fff}.gal-bg .sec-head p{color:#a9c1d3}
-.gallery{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
 @media (min-width:800px){.gallery{grid-template-columns:repeat(6,1fr);gap:16px}}
-.gallery button{all:unset;cursor:zoom-in;position:relative;border-radius:10px;overflow:hidden;display:block;background:#000;min-height:120px}
+.gallery button{all:unset;cursor:zoom-in;position:relative;border-radius:10px;overflow:hidden;display:block;background:#000;min-height:120px;min-width:0}
 .gallery button:focus-visible{outline:3px solid var(--accent-light);outline-offset:3px}
 .gallery img{width:100%;height:100%;object-fit:cover;display:block}
 .gallery figure{margin:0;height:100%}
 .gallery figcaption{position:absolute;inset:auto 0 0 0;padding:24px 12px 10px;background:linear-gradient(transparent,rgba(0,0,0,.8));color:#fff;font-family:var(--display);font-weight:500;font-size:12.5px}
 .gallery .g1{grid-column:1/-1;aspect-ratio:4/3}
 .gallery .g2,.gallery .g5{grid-row:span 2}
-.gallery .g3,.gallery .g4{aspect-ratio:4/3}
+.gallery .g3,.gallery .g4{aspect-ratio:4/3;min-height:0}
 .gallery .g6{grid-column:1/-1;aspect-ratio:4/3}
 @media (min-width:800px){
   .gallery .g1{grid-column:span 4}
@@ -288,6 +295,8 @@ footer .bottom .wrap{display:grid;gap:6px;padding-block:16px}
 .actionbar .wa{color:#fff;background:#1fa855}
 @media (min-width:700px){.actionbar{display:none}}
 </style>
+</head>
+<body>
 
 <div class="topbar">
   <div class="wrap">
@@ -762,3 +771,5 @@ footer .bottom .wrap{display:grid;gap:6px;padding-block:16px}
   });
 })();
 </script>
+</body>
+</html>
