@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#102c42">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='12' fill='%231a72ae'/%3E%3Crect x='11.2' y='5.4' width='5.6' height='13.2' rx='.8' fill='%23fff'/%3E%3Crect x='15.9' y='9.4' width='5.1' height='5.2' rx='.8' fill='%23fff'/%3E%3Cpath d='M3.2 12h4.2l1.35-4.4.9 8.25L11.2 12' fill='none' stroke='%23fff' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round'/%3E%3Cpath d='M11.2 12h2.1l.9-2.85.8 4.7 1.05-3 .5 1.15h1.3' fill='none' stroke='%231a72ae' stroke-width='1.2' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
 <title>Sanitetski prijevoz Rijeka</title>
 <meta name="description" content="Privatni sanitetski prijevoz Rijeka – prijevoz nepokretnih, teško pokretnih i ležećih osoba, na nosilima ili sjedeći uz pratnju. Opatija, Crikvenica, Krk, Cres, Lošinj, cijela Hrvatska i Europa. 0–24, bez uputnice, fiksna cijena.">
 <meta name="keywords" content="sanitetski prijevoz Rijeka, privatni sanitetski prijevoz, sanitetski prevoz Rijeka, prijevoz nepokretnih osoba Rijeka, prijevoz ležećih pacijenata, prijevoz teško pokretnih osoba, ambulantni prijevoz Rijeka, prijevoz na dijalizu, prijevoz iz bolnice kući, sanitetski prijevoz Opatija, Crikvenica, Krk">
@@ -70,7 +71,7 @@ header.site{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;backgrou
 header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none}
 .logo-mark{width:40px;height:40px;border-radius:50%;background:var(--accent);display:grid;place-items:center;flex:none}
-.logo-mark svg{width:23px;height:23px}
+.logo-mark svg{width:28px;height:28px}
 .logo-text{display:grid;line-height:1.1}
 .logo-text b{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:.06em;white-space:nowrap}
 .logo-text small{font-family:var(--display);font-weight:500;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#9dc0d8}
@@ -79,7 +80,7 @@ header.site .wrap{display:flex;align-items:center;justify-content:space-between;
 .lang{font-family:var(--display);font-weight:600;font-size:13px;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.3);border-radius:8px;padding:9px 8px;cursor:pointer;min-height:40px}
 .lang option{color:#14293b;background:#fff}
 header.site .wrap{gap:8px}
-@media (max-width:359px){.logo{gap:8px;min-width:0}.logo-mark{width:34px;height:34px}.logo-mark svg{width:19px;height:19px}.logo-text b{font-size:15px;letter-spacing:.03em}.logo-text small{font-size:8px;letter-spacing:.1em}.lang{padding:7px 4px}.burger{padding:8px 4px}}
+@media (max-width:359px){.logo{gap:8px;min-width:0}.logo-mark{width:34px;height:34px}.logo-mark svg{width:24px;height:24px}.logo-text b{font-size:15px;letter-spacing:.03em}.logo-text small{font-size:8px;letter-spacing:.1em}.lang{padding:7px 4px}.burger{padding:8px 4px}}
 .burger span{display:block;width:26px;height:3px;background:var(--lime);margin:5px 0;border-radius:2px}
 nav.main{position:absolute;inset:100% 0 auto 0;background:var(--night);border-top:1px solid #1b4260;max-height:70vh;overflow:auto}
 nav.main:not(.open){display:none}
@@ -104,7 +105,7 @@ nav.main a{display:block;padding:14px 0;border-bottom:1px solid #1b4260;text-dec
   linear-gradient(180deg,#0b1f30,#102c42)}
 .hero .wrap{position:relative;z-index:1;padding-block:30px 36px;display:grid;gap:24px}
 @media (min-width:900px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;padding-block:64px 72px}}
-@media (min-width:1100px){.hero .wrap{grid-template-columns:.85fr 1.15fr;gap:44px}.hero .wrap h1{font-size:40px}}
+@media (min-width:1100px){.hero .wrap{grid-template-columns:.85fr 1.15fr;gap:44px}.hero .wrap h1{font-size:40px}.hero .wrap figure{margin-right:calc(-1 * max(0px,(100vw - 1140px) / 2))}}
 .hero h1{font-size:30px;margin-top:10px}
 @media (min-width:700px){.hero h1{font-size:44px}}
 .hero h1 b{display:block;color:var(--accent-light);font-weight:700}
@@ -295,7 +296,7 @@ footer .bottom .wrap{display:grid;gap:6px;padding-block:16px}
 <header class="site">
   <div class="wrap">
     <a class="logo" href="#vrh" aria-label="Inelis Care – početna">
-      <span class="logo-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3.5h5v6h6v5h-6v6h-5v-6h-6v-5h6z" fill="#fff"/><path d="M1.5 13h5l1.6-3.4 2.3 6.4 2-5 1.2 2h9" fill="none" stroke="#1a72ae" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
+      <span class="logo-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="11.2" y="5.4" width="5.6" height="13.2" rx=".8" fill="#fff"/><rect x="15.9" y="9.4" width="5.1" height="5.2" rx=".8" fill="#fff"/><path d="M3.2 12h4.2l1.35-4.4.9 8.25L11.2 12" fill="none" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M11.2 12h2.1l.9-2.85.8 4.7 1.05-3 .5 1.15h1.3" fill="none" stroke="#1a72ae" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
       <span class="logo-text"><b>INELIS CARE</b></span>
     </a>
     <nav class="main" id="nav" aria-label="Glavni izbornik">
@@ -611,7 +612,7 @@ footer .bottom .wrap{display:grid;gap:6px;padding-block:16px}
 <footer id="kontakt">
   <div class="wrap grid">
     <div>
-      <a class="logo" href="#vrh"><span class="logo-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3.5h5v6h6v5h-6v6h-5v-6h-6v-5h6z" fill="#fff"/><path d="M1.5 13h5l1.6-3.4 2.3 6.4 2-5 1.2 2h9" fill="none" stroke="#1a72ae" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg></span><span class="logo-text"><b style="color:#fff">INELIS CARE</b><small>Rijeka · Kvarner</small></span></a>
+      <a class="logo" href="#vrh"><span class="logo-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="11.2" y="5.4" width="5.6" height="13.2" rx=".8" fill="#fff"/><rect x="15.9" y="9.4" width="5.1" height="5.2" rx=".8" fill="#fff"/><path d="M3.2 12h4.2l1.35-4.4.9 8.25L11.2 12" fill="none" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/><path d="M11.2 12h2.1l.9-2.85.8 4.7 1.05-3 .5 1.15h1.3" fill="none" stroke="#1a72ae" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"/></svg></span><span class="logo-text"><b style="color:#fff">INELIS CARE</b><small>Rijeka · Kvarner</small></span></a>
       <p class="about">Sanitetski prijevoz i prijevoz uz asistenciju nepokretnih i teško pokretnih osoba. Rijeka, Kvarner, Hrvatska i Europa.</p>
     </div>
     <div><h4>Kontakt</h4><ul>
