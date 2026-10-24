@@ -104,6 +104,7 @@ nav.main a{display:block;padding:14px 0;border-bottom:1px solid #1b4260;text-dec
   linear-gradient(180deg,#0b1f30,#102c42)}
 .hero .wrap{position:relative;z-index:1;padding-block:30px 36px;display:grid;gap:24px}
 @media (min-width:900px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center;gap:40px;padding-block:64px 72px}}
+@media (min-width:1100px){.hero .wrap{grid-template-columns:.85fr 1.15fr;gap:44px}.hero .wrap h1{font-size:40px}}
 .hero h1{font-size:30px;margin-top:10px}
 @media (min-width:700px){.hero h1{font-size:44px}}
 .hero h1 b{display:block;color:var(--accent-light);font-weight:700}
@@ -125,7 +126,7 @@ nav.main a{display:block;padding:14px 0;border-bottom:1px solid #1b4260;text-dec
 /* quick actions */
 .quick{grid-column:1/-1;background:var(--panel);border-radius:10px;padding:12px;display:grid;gap:10px}
 @media (min-width:700px){.quick{grid-template-columns:repeat(2,1fr);padding:14px}}
-@media (min-width:1000px){.quick{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:1000px){.quick{grid-template-columns:repeat(4,1fr);border-radius:0;padding:22px 0;margin-block:14px;box-shadow:0 0 0 100vmax var(--panel);clip-path:inset(0 -100vmax)}}
 .quick a{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:10px;padding:12px 14px;text-decoration:none;color:#fff;min-height:60px}
 .quick a:hover{background:rgba(255,255,255,.13)}
 .quick .ic{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--accent)}
